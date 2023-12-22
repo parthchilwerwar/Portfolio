@@ -1,0 +1,44 @@
+@font-face {
+    font-family: head;
+    src: url(fonts/GothamMedium.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #8C52FF;
+}
+
+
+#image{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#image button{
+    background-color:transparent;
+    color: black;
+    padding: 10px 40px ;
+    border-radius: 28px;
+    font-size: 20px;
+    border-color: black;
+    margin-top: 25%;
+    margin-left: 50%;
+    font-family: head;
+    cursor: pointer;
+    
+}
+

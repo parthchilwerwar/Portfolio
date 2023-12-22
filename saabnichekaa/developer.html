@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Developer 👨‍💻</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="developer.css">
+        <link rel="icon" type="image/x-icon"  href="images/jaxkrizzer.png" >
+    </head>
+    <body>
+       <div id="image" >
+        <audio id="myAudio" autoplay loop>
+            <source src="music/storm-clouds-purpple-cat(chosic.com).mp3" type="audio/mp3">
+        </audio>
+        <button onclick="toggleAudio()">Play music</button>
+
+<script>
+    var audio = document.getElementById("myAudio");
+
+    function toggleAudio() {
+        if (audio.paused) {
+            audio.play();
+        } else {
+            audio.pause();
+        }
+    }
+</script>
+
+       </div>
+        
+    </body>
+</html>
